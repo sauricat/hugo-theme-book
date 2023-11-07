@@ -44,6 +44,7 @@ img {
 }
 
 aside nav ul {
+    padding-top: 10em;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -141,10 +142,6 @@ ul.pagination {
 
   .book-menu-content {
     width: $menu-width;
-    padding-top: $nav-bar;
-    padding-left: $padding-16;
-    padding-right: $padding-16;
-    padding-bottom: $padding-16;
     background: var(--body-background);
 
     @include fixed;
@@ -274,7 +271,6 @@ body[dir="rtl"] .book-menu {
 
   .book-toc-content {
     width: $toc-width;
-    padding: $nav-bar $padding-16 $padding-16 $padding-16;
 
     @include fixed;
   }
@@ -401,6 +397,6 @@ body[dir="rtl"] .book-menu {
   .book-page,
   .book-menu .book-menu-content,
   .book-toc .book-toc-content {
-    padding: $padding-16 * 2 $padding-16;
+    padding: $nav-bar $padding-16;
   }
 }
