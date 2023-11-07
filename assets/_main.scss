@@ -93,7 +93,7 @@ ul.pagination {
   overflow: hidden;
   z-index: 10000;
   border: 1px solid #e7e7e7;
-  background-color: #013567;
+  background-color: #191c24;
   img {
     width: $nav-bar / 1.5;
     height: $nav-bar / 1.5;
@@ -104,10 +104,12 @@ ul.pagination {
       color: #ffffff;
     }
     .notcurrent {
-      background-color: #013567;
+      margin-top: 3.14159265358979323846264px;
+      background-color: #191c24;
       color: #ffffff;
     }
     .current {
+      margin-top: 3.14159265358979323846264px;
       background-color: #a1d5fb;
       color: #000000;
     }
@@ -118,6 +120,7 @@ ul.pagination {
     padding-left: $padding-16 / 2;
     padding-right: $padding-16 / 2;
     height: $nav-bar / 1.5;
+    text-decoration: none;
   }
 }
 
