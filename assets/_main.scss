@@ -398,10 +398,15 @@ body[dir="rtl"] .book-menu {
 }
 
 // Extra space for big screens
-@media screen and (min-width: $container-max-width) {
-  .book-page,
-  .book-menu .book-menu-content,
-  .book-toc .book-toc-content {
-    padding: $nav-bar $padding-16;
-  }
+// @media screen and (min-width: $container-max-width) {
+//   .book-page,
+//   .book-menu .book-menu-content,
+//   .book-toc .book-toc-content {
+//     padding: $nav-bar $padding-16;
+//   }
+// }
+
+.book-menu .book-menu-content,
+.book-toc .book-toc-content {
+  padding: $nav-bar $padding-16;
 }
