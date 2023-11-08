@@ -93,7 +93,7 @@ ul.pagination {
   padding: 0;
   overflow: hidden;
   z-index: 10000;
-  border: 1px solid #e7e7e7;
+  // border: 1px solid #e7e7e7;
   background-color: #191c24;
   img {
     width: $nav-bar / 1.5;
@@ -112,6 +112,24 @@ ul.pagination {
       background-color: #a1d5fb;
       color: #000000;
     }
+  }
+  button {
+    font-family: 'Noto Sans Symbols 2', serif;
+    background-color: #191c24;
+    color: #ffffff;
+    float: right;
+    border: 0px;
+    outline: none;
+    padding-top: $nav-bar / 13;
+    padding-left: $padding-16 / 2;
+    padding-right: $padding-16 / 2;
+    height: $nav-bar / 1.5;
+    text-decoration: none;
+    transition-duration: 0.3s;
+  }
+  button:hover {
+    background-color: #a1d5fb;
+    color: #000000;
   }
   a {
     display: block;

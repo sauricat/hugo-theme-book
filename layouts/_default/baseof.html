@@ -7,7 +7,7 @@
 <body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
-  <navigate class="navigation-bar">
+  <div class="navigation-bar">
     <li><a class="placeholder"></a></li>
     <li><img src="https://oau.edu.kg/TIA_LogoBG@3x.png"></li>
     <li><a class="title">Trans in Academia! </a></li>
@@ -23,7 +23,9 @@
     <li><a href="https://lib.oau.edu.kg" class="notcurrent">Library</a></li>
     <li><a href="https://uniguide.oau.edu.kg" class="current">UniGuide</a></li>
     {{ end }}
-  </navigate>
+
+    <button onclick="toggle()">👁</button>
+  </div>
   <main class="container flex">
     <aside class="book-menu">
       <div class="book-menu-content">
@@ -98,3 +100,9 @@
 {{ define "toc" }}
   {{ partial "docs/toc" . }}
 {{ end }}
+
+  <script>
+    function toggle() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
