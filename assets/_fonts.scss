@@ -10,39 +10,39 @@
 }
 
 @font-face {
-  font-family: 'EB Garamond';
+  font-family: 'Inter';
   font-style: normal;
   font-display: swap;
   src: local(''),
-       url('fonts/EBGaramond/EBGaramond-VariableFont_wght.ttf') format('truetype');
+       url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'EB Garamond';
+  font-family: 'Inter';
   font-style: italic;
   font-display: swap;
   src: local(''),
-       url('fonts/EBGaramond/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+       url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: 'Source Han Serif SC';
+  font-family: 'Source Han Sans SC';
   font-style: normal;
   font-display: swap;
   src: local(''),
-       url('fonts/SourceHanSerif/SourceHanSerifSC-Regular.otf') format('opentype');
+       url('fonts/SourceHanSans/SourceHanSansSC-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'EB Garamond';
+  font-family: 'Inter';
   font-style: italic;
   font-display: swap;
   src: local(''),
-       url('fonts/EBGaramond/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+       url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2) format('woff2');
 }
 
 body {
-  font-family: 'EB Garamond', 'Source Han Serif SC', 'Noto Sans Symbols 2', serif;
+  font-family: 'Inter', 'Source Han Sans SC', 'Noto Sans Symbols 2', sans-serif;
   font-variant-ligatures: common-ligatures;
   font-feature-settings: 'liga';
 }
@@ -51,4 +51,4 @@ code {
   font-family: 'Roboto Mono', monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
